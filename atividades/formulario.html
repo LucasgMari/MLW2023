@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <br>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="tex" name="nome" id="nome"><br>
+                <label for="end">Endereço:</label>
+                <input type="tex" name="Endereço" id="Endereço"><br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade"><br> 
+                <label>Estado:</label>
+                <select name="esc" id="esc">
+                    <option value="1">São Paulo</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <div>
+                <label>Natureza do Cargo</label>
+                <br>
+                <input type="radio" name="Gerencia" id="Gerencia">
+                <label>Gerencia</label>       
+                <input type="radio" name="Financeiro" id="Financeiro">
+                <label>Financeiro</label>
+                <input type="radio" name="Recepção" id="Recepção">
+                <label>Recepção</label>
+                <input type="radio" name="Administrativo" id="Administrativo">
+                <label>Administrativo</label>
+                <input type="radio" name="Juridico" id="Juridico">
+                <label>Juridico</label>
+            </div>
+            <br>
+            <fieldset>
+                <legend>Area De Interesse</legend>
+                <br>
+                <div>
+                    <input type="checkbox" name="comp" id="comp">
+                    <label>Computação</label>       
+                    <input type="checkbox" name="bio" id="bio">
+                    <label>Biologia</label>
+                    <input type="checkbox" name="Meio" id="Meio">
+                    <label>Meio Ambiente</label>
+                    <input type="checkbox" name="Engenharia" id="Engenharia">
+                    <label>Engenharia</label>
+                    <input type="checkbox" name="Historia" id="Historia">
+                    <label>Historia</label>
+                </div>
+                <div>
+                    <label for="mini">Mini-curriculo</label>
+                    <textarea name="mini" id="mini" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+             </div>
+            </fieldset>
+    </form>
+    
+</body>
+</html>
