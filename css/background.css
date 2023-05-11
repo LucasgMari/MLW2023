@@ -1,0 +1,18 @@
+.bgcolor {
+    background-color: burlywood;
+    height: 50px;
+    width: 50%;
+}
+
+p {
+    background-color: rgb(20, 7, 201);
+}
+
+.bgimagens {
+    background-image: url(../img/tec.jpg);
+    height: 1000px;
+    width: 4000px;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+   
+}

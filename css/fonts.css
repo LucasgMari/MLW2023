@@ -1,0 +1,19 @@
+.serif {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nserif {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+.fs {
+    font-style: oblique;
+}
+
+.fw {
+    font-weight: 300;
+}
